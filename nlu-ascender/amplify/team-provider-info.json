@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nluascender-staging-165411-authRole",
+      "UnauthRoleArn": "arn:aws:iam::717817223125:role/amplify-nluascender-staging-165411-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::717817223125:role/amplify-nluascender-staging-165411-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-nluascender-staging-165411-deployment",
+      "UnauthRoleName": "amplify-nluascender-staging-165411-unauthRole",
+      "StackName": "amplify-nluascender-staging-165411",
+      "StackId": "arn:aws:cloudformation:us-west-2:717817223125:stack/amplify-nluascender-staging-165411/5e21e830-23a1-11ec-8cdb-06e121f4f885",
+      "AmplifyAppId": "d3s6zegopbcobc"
+    },
+    "categories": {
+      "auth": {
+        "nluascender": {}
+      },
+      "function": {
+        "nluascenderGetChildren": {
+          "deploymentBucketName": "amplify-nluascender-staging-165411-deployment",
+          "s3Key": "amplify-builds/nluascenderGetChildren-71383755784d36703275-build.zip"
+        }
+      }
+    }
+  }
+}

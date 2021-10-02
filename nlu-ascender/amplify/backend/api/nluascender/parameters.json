@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "nluascender",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnluascender",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
