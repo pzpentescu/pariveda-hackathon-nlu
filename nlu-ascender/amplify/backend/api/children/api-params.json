@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "name": "/children/{childId}",
+      "lambdaFunction": "nluascenderGetChildren",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH"
+        ]
+      },
+      "policyResourceName": "/children/*"
+    }
+  ],
+  "resourceName": "children",
+  "apiName": "children",
+  "functionArns": [
+    {
+      "lambdaFunction": "nluascenderGetChildren"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-nluascender-staging-165411-authRole",
+    "unAuthRoleName": "amplify-nluascender-staging-165411-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "nluascenderGetChildren",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
